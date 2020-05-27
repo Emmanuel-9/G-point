@@ -1,0 +1,21 @@
+.about{
+    display: none;
+}
+body{
+    padding: 50px;
+    
+}
+#slideshow{
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+.card{
+   background-color: khaki;
+}
+.topnav{
+   background-color: black;
+   padding: 20px;
+   font-size: xx-large;
+}
