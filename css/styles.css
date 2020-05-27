@@ -34,3 +34,18 @@ body{
 .row{
     padding: 50px;
 }    
+=======
+.navbar-brand{
+    margin-right: 20%;
+  }
+.nav-item a{
+    font-size: 25px;
+  }
+  .text-center11{
+      color: darkred;
+      font-size: 30px;
+  }
+.card{
+   background-color: khaki;
+}
+>>>>>>> 59cf89157f06953d9e2917d1d9bfac929be1dcf2
