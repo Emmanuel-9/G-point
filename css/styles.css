@@ -17,5 +17,20 @@
   display: none;
 }
 .server{
-  font-size: 36px;
+  font-size: 6px;
+}
+.title{
+  font-size: 25px;
+  font-weight: 700;
+}
+.p-img{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  text-decoration: darkgray;
+}
+#air .p-img{
+  padding-top: 15px;
 }
