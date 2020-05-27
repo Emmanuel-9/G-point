@@ -1,38 +1,13 @@
-/*header{
-    background-image: url("../images/pizz1.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 100%;
-    width: 100%;
-    position: relative;
-}*/
 .navbar-brand{
     margin-right: 20%;
   }
 .nav-item a{
     font-size: 25px;
   }
-.about{
-    display: none;
-}
-body{
-    padding: 50px;
-    
-}
-#slideshow{
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 50px;
-}
+  .text-center11{
+      color: darkred;
+      font-size: 30px;
+  }
 .card{
    background-color: khaki;
-}
-.topnav{
-   background-color: black;
-   padding: 20px;
-   font-size: xx-large;
 }
