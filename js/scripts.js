@@ -1,6 +1,6 @@
 $(document).ready(function(){
- $('#us').last().click(function(){
+ $('#us').click(function(){
      $('.about').toggle();
- })
+ });
 
-})
+});
