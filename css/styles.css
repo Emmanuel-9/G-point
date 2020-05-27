@@ -1,47 +1,15 @@
-.navbar-brand{
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;
-    display: block;
+#oil,#air,#cool,#brakes,#services,#seven,p,h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
 }
-#navbarNav ul {
-    padding:0;
-    display: flex;
-    justify-content: space-around;
-
-    }   
- #navbarNav ul li {
-    list-style-type:none;
-    padding-right: 30px;
-    padding-left: 30px;
-    width:100%;    
-    color: white;
-    }
-#navbarNav ul li a {
-    text-decoration:none;
-    }
-.bg-fixed-top{
-    color: white;
-    background-color: #5F8F7F;
+#oil,#air,#cool,#brakes,#services,#seven{
+  font-family: 'Copse', serif;
+  font-size: 16px;
 }
-.navbar {
-    min-height: 80px;
-  }
-.navbar-brand {
-    padding: 0 15px;
-    height: 80px;
-    line-height: 80px;
-  }
-  
-  .navbar-toggle {
-    margin-top: 23px;
-    padding: 9px 10px !important;
-  }
-  
-  @media (min-width: 768px) {
-    .navbar-nav > li > a {
-      padding-top: 26.5px;
-      padding-bottom: 26.5px;
-      line-height: 27px;
-    }
-  }
+#services{
+  background-color: #a55c1b;
+  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+  color: white;
+  font-weight: 300;
+}
