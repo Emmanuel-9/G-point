@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $('#us').last().click(function(){
+        $('.about').toggle();
+    })
+   
+   })
 $(document).ready(function() {
     $("#oilimg").click(function() {
         $('#oilimg').slideDown('1500').hide('1000');
@@ -63,3 +69,4 @@ $(document).ready(function() {
         $("#sevenimg").show('1500');
     });
 });
+
