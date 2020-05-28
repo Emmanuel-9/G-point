@@ -1,51 +1,21 @@
-.about{
-    display: none;
-}
 body{
     padding: 50px;
 }
-#slideshow{
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 50px;
-}
-.card{
-   background-color: khaki;
-}
-.topnav{
-   background-color: black;
-   padding: 20px;
-   font-size: xx-large;
-}
-.tab1{
-    background-color: orange;
-    padding: 100px;
-    height: 50px;
-    text-align: center;
-}
-.tab2{
-    background-color: black;
-    height: 400px;
-    color: whitesmoke;
-    padding: 200px;
-    padding-top: 50px;
-}
-.row{
-    padding: 50px;
-}    
-=======
 .navbar-brand{
     margin-right: 20%;
-  }
+}
 .nav-item a{
     font-size: 25px;
-  }
-  .text-center11{
+}
+.text-center11{
       color: darkred;
       font-size: 30px;
-  }
-.card{
-   background-color: khaki;
 }
->>>>>>> 59cf89157f06953d9e2917d1d9bfac929be1dcf2
+#slideshow{
+    padding: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+
