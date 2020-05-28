@@ -78,8 +78,8 @@
   #gallery ul li{
       font-family: Arial, Helvetica, sans-serif;
       text-decoration: none;
-      font-weight: bolder;
-      color: #000;
+      font-weight: 700;
+      color: white;
       height: 50px;
       width: auto;
       display: inline-block;
