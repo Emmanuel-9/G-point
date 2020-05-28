@@ -16,6 +16,24 @@ body{
     padding-right: 50px;
     padding-bottom: 50px;
 }
-
+.row{
+    
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.contact{
+    text-align: center;
+}
+.tab{
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 600px;
+    scrollbar-highlight-color: whitesmoke;
+    border-style: groove;
+}
 
 
