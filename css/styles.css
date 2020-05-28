@@ -18,8 +18,8 @@ body{
 }
 .row{
     
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .contact{
     text-align: center;
@@ -27,11 +27,11 @@ body{
 .tab{
     background-color: black;
     color: whitesmoke;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    height: 600px;
+    height: 300px;
     scrollbar-highlight-color: whitesmoke;
     border-style: groove;
 }
