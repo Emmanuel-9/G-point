@@ -13,7 +13,6 @@
   padding-right: 50px;
   padding-bottom: 50px;
 }
-<<<<<<< HEAD
 .row{
     
     padding-left: 50px;
@@ -33,10 +32,6 @@
     scrollbar-highlight-color: whitesmoke;
     border-style: groove;
 }
-
-
-=======
-
 #oil,#air,#cool,#brakes,#services,#seven,p,h2{
   text-align: center;
   font-size: 16px;
@@ -73,4 +68,4 @@
 #air .p-img{
   padding-top: 15px;
 }
->>>>>>> a22408e8cf66fbb41eb173bde40646fb87ee55cc
+
