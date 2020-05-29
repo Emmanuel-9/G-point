@@ -47,7 +47,7 @@
 .tab1{
     background-color: black;
     color: whitesmoke;
-    height: 500px;
+    height: 800px;
     padding: 50px;
 }
 #gallery img{
@@ -115,4 +115,11 @@ body{
 .avail{
   padding-left: 400px;
   padding-right: 400px;
+}
+.choices{
+  text-align: center;
+  
+}
+body{
+  font-size: x-large;
 }
