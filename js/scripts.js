@@ -76,3 +76,8 @@ $(document).ready(function(){
     });
    
    });
+   $(document).ready(function(){
+    $("#submit").click(function(){
+        alert("Your message have been received,we will get in touch with you shortly via phone")
+    });
+});
