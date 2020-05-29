@@ -44,19 +44,10 @@
 #air .p-img{
   padding-top: 15px;
 }
-.tab{
+.tab1{
     background-color: black;
     color: whitesmoke;
     height: 500px;
-    padding: 50px;
-}
-.tab-2{
-    background-color: gray;
-    color: whitesmoke;
-    height: 500px;
-    padding: 50px;
-}
-.offer{
     padding: 50px;
 }
 #gallery img{
@@ -108,3 +99,20 @@
 
 }
 
+h1{
+  text-align: center;
+}
+body{
+  font-size: x-large;
+}
+#mc_embed_signup_scroll{
+  padding: 200px;
+}
+.media{
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.avail{
+  padding-left: 400px;
+  padding-right: 400px;
+}
