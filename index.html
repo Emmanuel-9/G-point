@@ -5,11 +5,10 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link href="images/mechanic.jpeg" rel="shortcut icon" type="image/jpeg">
-
     </head>
      <body>
          <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
                 <a class="navbar-brand" href="#">G-Point Garage</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -69,7 +68,9 @@
                     <p class="text-center11">G-Point Garage is commited to earning your trust by providing expertise,value and response you expect.</p>
                   </div>
               </div>
-
+            </div>
+          </div>
+       </header>
              </div>
            </div><br><br>
            
@@ -87,6 +88,42 @@
                     </div>  
                <div class="tab1">
                   <h1>TESTIMONIALS</h1><br><br>
+                    
+                </div>
+
+                      </div>
+                  </div>
+              </div>
+              <div id="order-now">
+                <div class="container" id="appointment">
+                  <h1 class="text-center7">Request a quote</h1>
+                  <p class="text-center8">Get in touch with us from your home and tell us the problem.We are fully at your service.</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <label for="select">Car make</label>
+                      <select class="custom-select custom-select-md mb-3" id="name">
+                        <option selected value="Subaru">Subaru</option>
+                        <option value="Prado">Prado</option>
+                        <option value="Nissan">Nissan</option>
+                        <option value="Volvo">Volvo</option>
+                        <option value="BMW">BMW</option>
+                      </select>
+                    <label for="select">car Year</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="Year">
+                      <option selected value="2007">2007</option>
+                      <option value="2008">2008</option>
+                      <option value="2009">2009</option>
+                      <option value="2010">2010</option>
+                    </select>
+
+                    <div id="phone">
+                      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone number" required>
+                    </div><br>
+                    <textarea name="comment" form="usrform">Enter Car mulfunction...</textarea>
+                      <div id="button">
+                        <button type="submit" class="btn btn-success" id="submit">Submit</button>
+                      </div>   
+              
                   <div class="customers">
                     <div class="row">
                        <div class="col-md-6">
@@ -102,7 +139,7 @@
                          </div>
                      </div>
                   </div>  
-               </div>
+                    </div>
 
              <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
             <script src="js/bootstrap.js"></script>
