@@ -9,7 +9,7 @@
      <body>
          <header>
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
-                <a class="navbar-brand" href="#">G-Point Garage</a>
+                <a class="navbar-brand" href="../index.html">G-Point Garage</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,9 +25,43 @@
                       <a class="nav-link" href="../gallery.html">Vehicle Gallery</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#appointment">Appointment</a>
+                      <a class="nav-link" href="../appointment">Appointment</a>
                     </li>
                   </ul>
                 </div>
               </nav>
-         </header><br><br>   
+         </header><br><br>  
+              <div id="order-now">
+                <div class="container" id="appointment">
+                  <h1 class="text-center7">Request a quote</h1>
+                  <p class="text-center8">Get in touch with us from your home and tell us the problem.We are fully at your service.</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                          <label for="select">Car make</label>
+                          <select class="custom-select custom-select-md mb-3" id="name">
+                            <option selected value="Subaru">Subaru</option>
+                            <option value="Prado">Prado</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Volvo">Volvo</option>
+                            <option value="BMW">BMW</option>
+                          </select>
+                        <label for="select">car Year</label>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="Year">
+                          <option selected value="2007">2007</option>
+                          <option value="2008">2008</option>
+                          <option value="2009">2009</option>
+                          <option value="2010">2010</option>
+                        </select>
+
+                        <div id="phone">
+                          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone number" required>
+                        </div><br>
+                        <textarea name="comment" form="usrform">Enter Car mulfunction...</textarea>
+                          <div id="button">
+                            <button type="submit" class="btn btn-success" id="submit">Submit</button>
+                          </div>   
+                    </div>
+                </div> 
+              </div> 
+     </body>
+</html>   
